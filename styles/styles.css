@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color:var(--color-fonts)
+}
+
+:root {
+    --main-bg-color: #365ca8;
+    --background-divs-clean:#edf4ff;
+    --color-fonts: #FFF;
+}
+
+header, nav ul{
+    height: 50px;
+    background-color: var(--main-bg-color);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttonsAcessibility{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.buttonsAcessibility div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35px;
+    height: 35px;
+    background-color: var(--color-fonts);
+    border-radius: 5px;
+}
+
+.buttonsAcessibility div + div{
+    margin-left: 10px;
+}
+
+#main-acessible{
+    width: auto;
+    padding: 0 10px 0 8px;
+}
+
+#main-acessible span{
+color: var(--main-bg-color);
+}
+
+
+nav ul li a{
+    margin-left: 10px;
+}
+
+/*Seção Banner*/
+
+.top{
+    padding-top: 40px;
+    background-color: var(--background-divs-clean);
+    width: 100%;
+}
+
+.content-top{
+    width: 70%;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgContent{
+    width: 150px;
+}
+.imgContent img{
+    width: 160px;
+    border-right: 4px solid #CCC;
+    padding-right: 15px;
+}
+
+.titleContent{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: auto;
+}
+.titleCity p{
+    color: #77777a;
+    font-size: 28px;
+}
+
+.titleCity h1{
+    color: var(--main-bg-color);
+    font-size: 50px;
+}
+.icons img{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #b0c0e2; 
+    border-radius: 50%;
+}
+
+.dateBusca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.dateBusca span{
+    color: #757780;
+    margin-right: 20px;
+}
+.dateBusca div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-fonts);
+    width: 480px;
+    height: 60px;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+
+#search{
+    color: #757780;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+
+.subMenu nav{
+    width: 750px;
+    margin-top: 30px;
+}
+
+.subMenu nav ul{
+    border-radius: 5px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.banner{
+    max-width: 1340px;    
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.banner img{
+    border: 10px solid var(--color-fonts);
+    width: 100%;
+}
+
+.engrenagem div{
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.engrenagem img{
+    width: 45px;
+    border: none;
+    margin-right: 10px;
+}
+
+.engrenagem h2{
+    font-size: 35px;
+    color: #919094;
+}
