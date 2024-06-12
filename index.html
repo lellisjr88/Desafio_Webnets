@@ -1,357 +1,608 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prefeitura de Itaú de Minas - Site Oficial</title>
     <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <!--Estilos da Página-->
-    <link rel="stylesheet" href="./styles/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <div class="buttonsAcessibility">
-               <div>
-                    <img src="./assets/img/ChangeColor.svg" alt="">
-               </div>
-               <div>
-                    <img src="./assets/img/A+.svg" alt="">
-               </div>
-               <div>
-                    <img src="./assets/img/A-.svg" alt="">
-               </div>
-               <div id="main-acessible">
-                    <img src="./assets/img/mainAcessibility.svg" alt="">
-                    <span>Acessibilidade</span>
-               </div>
+      <header>
+        <div class="buttonsAcessibility">
+          <div>
+            <img src="./assets/img/ChangeColor.svg" alt="" />
+          </div>
+          <div>
+            <img src="./assets/img/A+.svg" alt="" />
+          </div>
+          <div>
+            <img src="./assets/img/A-.svg" alt="" />
+          </div>
+          <div id="main-acessible">
+            <img src="./assets/img/mainAcessibility.svg" alt="" />
+            <span>Acessibilidade</span>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="">Ir para conteúdo</a>
+            </li>
+            <li>
+              <a href="">Ir para o menu</a>
+            </li>
+            <li>
+              <a href="">Ir para a busca</a>
+            </li>
+            <li>
+              <a href="">Ir para o rodapé</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="top">
+        <div class="content-top">
+          <div class="imgContent">
+            <img src="./assets/img/iconItaudeMinas.png" alt="" />
+          </div>
+          <div class="titleContent">
+            <div class="titleCity">
+              <p>PREFEITURA MUNICIPAL DE</p>
+              <h1>ITAÚ DE MINAS</h1>
             </div>
-           <nav>
-                <ul>
+            <div class="icons">
+              <img src="./assets/img/facebook-f.svg" alt="" />
+              <img src="./assets/img/rss-solid.svg" alt="" />
+              <img src="./assets/img/youtube.svg" alt="" />
+              <img src="./assets/img/instagram.svg" alt="" />
+            </div>
+          </div>
+          <div class="buscaContainer">
+            <div class="dateBusca">
+              <span>Inserir a data aqui via JS</span>
+              <div>
+                <input
+                  type="search"
+                  name="search"
+                  id="search"
+                  placeholder="Faça sua busca aqui..."
+                />
+                <img src="./assets/img/searchIcon.svg" alt="Icone de busca" />
+              </div>
+            </div>
+            <div class="menuBusca">
+              <div class="subMenu">
+                <nav>
+                  <ul>
                     <li>
-                        <a href="">Ir para conteúdo</a>
+                      <a href="#"> A cidade </a>
                     </li>
                     <li>
-                        <a href="">Ir para o menu</a>
+                      <a href=""> Conselhos Municipais </a>
                     </li>
                     <li>
-                        <a href="">Ir para a busca</a>
+                      <a href=""> Secretarias </a>
                     </li>
                     <li>
-                        <a href="">Ir para o rodapé</a>
+                      <a href="">Servidor Público</a>
                     </li>
-                </ul>
-           </nav>
-        </header>
-        <section class="top">
-            <div class="content-top">
-                <div class="imgContent">
-                    <img src="./assets/img/iconItaudeMinas.png" alt="">
-                </div>
-                <div class="titleContent">
-                    <div class="titleCity">
-                        <p>PREFEITURA MUNICIPAL DE </p>
-                        <h1>ITAÚ DE MINAS</h1>
-                    </div>
-                    <div class="icons">
-                        <img src="./assets/img/facebook-f.svg" alt="">
-                        <img src="./assets/img/rss-solid.svg" alt="">
-                        <img src="./assets/img/youtube.svg" alt="">
-                        <img src="./assets/img/instagram.svg" alt="">
-                    </div>
-                </div>
-                <div class="buscaContainer">
-                    <div class="dateBusca">
-                        <span>Inserir a data aqui via JS</span>
-                        <div>
-                            <input type="search" name="search" id="search" placeholder="Faça sua busca aqui...">
-                            <img src="./assets/img/searchIcon.svg" alt="Icone de busca">
-                        </div>
-                    </div>
-                    <div class="menuBusca">
-                        <div class="subMenu">
-                            <nav>
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            A cidade
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Conselhos Municipais
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">
-                                            Secretarias
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="">Servidor Público</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
+                  </ul>
+                </nav>
+              </div>
             </div>
-            <div class="banner">
-                <img src="./assets/img/BannerItaudeMinas.jpg" alt="Foto da cidade Itau de Minas">
+          </div>
+        </div>
+        <div class="banner">
+          <img
+            src="./assets/img/BannerItaudeMinas.jpg"
+            alt="Foto da cidade Itau de Minas"
+          />
+        </div>
+        <div class="engrenagem banner">
+          <div>
+            <img src="./assets/img/engrenagem.svg" alt="icone engreganem" />
+            <h2>SERVIÇOS</h2>
+          </div>
+        </div>
+      </section>
+      <section class="sliderWrap banner">
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slide">
+              <div class="centerRound">
+                <div class="imgRound">
+                  <div class="imgSliderIcon">
+                    <img src="./assets/img/searchAzul.svg" alt="" />
+                  </div>
+                </div>
+                <p>Transparência</p>
+              </div>
             </div>
-            <div class="engrenagem banner">
-               <div>
-                    <img src="./assets/img/engrenagem.svg" alt="icone engreganem">
-                    <h2>SERVIÇOS</h2>
-               </div>
+            <div class="slide">
+              <div class="centerRound">
+                <div class="imgRound">
+                  <div class="imgSliderIcon">
+                    <img src="./assets/img/documentAzul.svg" alt="" />
+                  </div>
+                </div>
+                <p>Protocolo</p>
+              </div>
             </div>
-        </section>
-        <section class="sliderWrap banner">
-            <div class="slider-container">
-                <div class="slider">
-                  <div class="slide">
-                   <div class="centerRound">
-                    <div class="imgRound">
-                        <div class="imgSliderIcon">
-                            <img src="./assets/img/searchAzul.svg" alt="">
-                        </div>
-                    </div>
-                    <p>Transparência</p>
-                   </div>
-                  </div>
-                  <div class="slide">
-                     <div class="centerRound">
-                        <div class="imgRound">
-                            <div class="imgSliderIcon">
-                                <img src="./assets/img/documentAzul.svg" alt="">
-                                </div>
-                        </div>
-                        <p>Protocolo</p>
-                     </div>
-                  </div>
-                  <div class="slide">
-                    <div class="centerRound">
-                        <div class="imgRound">
-                            <div class="imgSliderIcon">
-                                <img src="./assets/img/suporte.svg" alt="">
-                                </div>
-                        </div>
-                        <p>Ouvidoria</p>
-                    </div>
-                  </div>
-                  <div class="slide">
-                    <div class="centerRound">
-                        <div class="imgRound">
-                            <div class="imgSliderIcon">
-                                <img src="./assets/img/house.svg" alt="">
-                                </div>
-                        </div>
-                        <p>IPTU</p>
-                    </div>
-                  </div>
-                  <div class="slide">
-                    <div class="centerRound">
-                        <div class="imgRound">
-                            <div class="imgSliderIcon">
-                                <img src="./assets/img/iptu.svg" alt="">
-                                </div>
-                        </div>
-                        <p>NF-e</p>
-                    </div>
-                  </div>
-                  <div class="slide">
-                    <div class="centerRound">
-                        <div class="imgRound">
-                            <div class="imgSliderIcon">
-                                <img src="./assets/img/judge.svg" alt="">
-                                </div>
-                        </div>
-                        <p>Pregão</p>
-                    </div>
-                  </div>
-                  <div class="slide">
-                    <div class="centerRound">
-                        <div class="imgRound">
-                            <div class="imgSliderIcon">
-                                <img src="./assets/img/searchAzul.svg" alt="">
-                                </div>
-                        </div>
-                        <p>Transparência</p>
-                    </div>
-                  </div>
-                  <div class="slide">
-                    <div class="centerRound">
-                        <div class="imgRound">
-                            <div class="imgSliderIcon">
-                                <img src="./assets/img/documentAzul.svg" alt="">
-                                </div>
-                        </div>
-                        <p>Protocolco</p>
-                    </div>
-                  </div>
-                  <div class="slide">
-                        <div class="centerRound">
-                            <div class="imgRound">
-                                <div class="imgSliderIcon">
-                                    <img src="./assets/img/suporte.svg" alt="">
-                                    </div>
-                            </div>
-                            <p>Ouvidoria</p>
-                        </div>
-                  </div>
-                  <div class="slide">
-                        <div class="centerRound">
-                            <div class="imgRound">
-                                <div class="imgSliderIcon">
-                                    <img src="./assets/img/house.svg" alt="">
-                                </div>
-                            </div>
-                            <p>IPTU</p>
-                        </div>
-                  </div>
-                  <div class="slide">
-                    <div class="centerRound">
-                        <div class="imgRound">
-                            <div class="imgSliderIcon">
-                                <img src="./assets/img/iptu.svg" alt="">
-                            </div>
-                        </div>
-                        <p>NF-e</p>
-                    </div>
-                  </div>
-                  <div class="slide">
-                    <div class="centerRound">
-                        <div class="imgRound">
-                            <div class="imgSliderIcon">
-                                <img src="./assets/img/judge.svg" alt="">
-                            </div>
-                        </div>
-                        <p>Pregão</p>
-                    </div>
+            <div class="slide">
+              <div class="centerRound">
+                <div class="imgRound">
+                  <div class="imgSliderIcon">
+                    <img src="./assets/img/suporte.svg" alt="" />
                   </div>
                 </div>
-                <button class="prev-btn">
-                    <img src="./assets/img/arrow_left.svg" alt="">
-                </button>
-                <button class="next-btn"><img src="./assets/img/arrow_right.svg" alt=""></button>
+                <p>Ouvidoria</p>
+              </div>
             </div>
-        </section>
-        <section class="noticias">
-            <div class="engrenagem banner">
-                <div>
-                     <img src="./assets/img/microfoneSecao.svg" alt="icone engreganem">
-                     <h2>NOTÍCIAS</h2>
+            <div class="slide">
+              <div class="centerRound">
+                <div class="imgRound">
+                  <div class="imgSliderIcon">
+                    <img src="./assets/img/house.svg" alt="" />
+                  </div>
                 </div>
-             </div>
-            <div class="noticiasWrapper">
-                <div class="cardNoticias">
-                    <div class="imgCardNoticias">
-                        <img src="./assets/img/noticias1.png" alt="">
-                    </div>
-                    <div class="cardNoticiasDescription">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, consequuntur.</p>
-                        <span>Date</span>
-                    </div>
-                </div>
-                <div class="cardNoticias">
-                    <div class="imgCardNoticias">
-                        <img src="./assets/img/noticias2.png" alt="">
-                    </div>
-                    <div class="cardNoticiasDescription">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, consequuntur.</p>
-                        <span>Date</span>
-                    </div>
-                </div>
-                <div class="cardNoticias">
-                    <div class="imgCardNoticias">
-                        <img src="./assets/img/noticias3.png" alt="">
-                    </div>
-                    <div class="cardNoticiasDescription">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, consequuntur.</p>
-                        <span>Date</span>
-                    </div>
-                </div>
+                <p>IPTU</p>
+              </div>
             </div>
-            <div class="noticiasWrapper2">
-                <div class="cardNoticias">
-                    <div class="imgCardNoticias">
-                        <img src="./assets/img/noticias1.png" alt="">
-                    </div>
-                    <div class="cardNoticiasDescription">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, consequuntur.</p>
-                        <span>Date</span>
-                    </div>
+            <div class="slide">
+              <div class="centerRound">
+                <div class="imgRound">
+                  <div class="imgSliderIcon">
+                    <img src="./assets/img/iptu.svg" alt="" />
+                  </div>
                 </div>
-                <div class="cardNoticias">
-                    <div class="imgCardNoticias">
-                        <img src="./assets/img/noticias2.png" alt="">
-                    </div>
-                    <div class="cardNoticiasDescription">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, consequuntur.</p>
-                        <span>Date</span>
-                    </div>
-                </div>
-                <div class="cardNoticias">
-                    <div class="imgCardNoticias">
-                        <img src="./assets/img/noticias3.png" alt="">
-                    </div>
-                    <div class="cardNoticiasDescription">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, consequuntur.</p>
-                        <span>Date</span>
-                    </div>
-                </div>
+                <p>NF-e</p>
+              </div>
             </div>
-            <div class="buttonNoticias banner">
-                <button>Veja todas</button>
+            <div class="slide">
+              <div class="centerRound">
+                <div class="imgRound">
+                  <div class="imgSliderIcon">
+                    <img src="./assets/img/judge.svg" alt="" />
+                  </div>
+                </div>
+                <p>Pregão</p>
+              </div>
             </div>
-        </section>
-        <section class="noticias videos">
-            <div class="engrenagem banner">
-                <div>
-                     <img src="./assets/img/youtubeNoticias.svg" alt="icone engreganem">
-                     <p class="videosH2">VÍDEOS</p>
+            <div class="slide">
+              <div class="centerRound">
+                <div class="imgRound">
+                  <div class="imgSliderIcon">
+                    <img src="./assets/img/searchAzul.svg" alt="" />
+                  </div>
                 </div>
-             </div>
-             <div class="videosWrapper">
-                <div class="videoGrande">
-                    <iframe width="800" height="400" src="https://www.youtube.com/embed/vZAO3fg8zH0?si=GBoPnaiHOET34huv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Transparência</p>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="centerRound">
+                <div class="imgRound">
+                  <div class="imgSliderIcon">
+                    <img src="./assets/img/documentAzul.svg" alt="" />
+                  </div>
                 </div>
-                <div class="videosPequenos">
-                   <div class="wrapperVdosPenos">
-                        <div class="videoContentPqno">
-                            <iframe width="200" height="160" src="https://www.youtube.com/embed/vZAO3fg8zH0?si=GBoPnaiHOET34huv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                        <div class="contentTextVideosPeqnos">
-                            <p>MOMENTO CULTURAL - 2ºPROGRAMA</p>
-                            <span>Data</span>
-                        </div>
-                   </div>
-                   <div class="wrapperVdosPenos">
-                    <div class="videoContentPqno">
-                        <iframe width="200" height="160" src="https://www.youtube.com/embed/vZAO3fg8zH0?si=GBoPnaiHOET34huv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                    <div class="contentTextVideosPeqnos">
-                        <p>MOMENTO CULTURAL - 2ºPROGRAMA</p>
-                        <span>Data</span>
-                    </div>
-                   </div>
-                   <div class="wrapperVdosPenos">
-                    <div class="videoContentPqno">
-                        <iframe width="200" height="160" src="https://www.youtube.com/embed/vZAO3fg8zH0?si=GBoPnaiHOET34huv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
-                    <div class="contentTextVideosPeqnos">
-                        <p>MOMENTO CULTURAL - 2ºPROGRAMA</p>
-                        <span>Data</span>
-                    </div>
-                   </div>
+                <p>Protocolco</p>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="centerRound">
+                <div class="imgRound">
+                  <div class="imgSliderIcon">
+                    <img src="./assets/img/suporte.svg" alt="" />
+                  </div>
                 </div>
-             </div>
-        </section>
+                <p>Ouvidoria</p>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="centerRound">
+                <div class="imgRound">
+                  <div class="imgSliderIcon">
+                    <img src="./assets/img/house.svg" alt="" />
+                  </div>
+                </div>
+                <p>IPTU</p>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="centerRound">
+                <div class="imgRound">
+                  <div class="imgSliderIcon">
+                    <img src="./assets/img/iptu.svg" alt="" />
+                  </div>
+                </div>
+                <p>NF-e</p>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="centerRound">
+                <div class="imgRound">
+                  <div class="imgSliderIcon">
+                    <img src="./assets/img/judge.svg" alt="" />
+                  </div>
+                </div>
+                <p>Pregão</p>
+              </div>
+            </div>
+          </div>
+          <button class="prev-btn">
+            <img src="./assets/img/arrow_left.svg" alt="" />
+          </button>
+          <button class="next-btn">
+            <img src="./assets/img/arrow_right.svg" alt="" />
+          </button>
+        </div>
+      </section>
+      <section class="noticias">
+        <div class="engrenagem banner">
+          <div>
+            <img src="./assets/img/microfoneSecao.svg" alt="icone engreganem" />
+            <h2>NOTÍCIAS</h2>
+          </div>
+        </div>
+        <div class="noticiasWrapper">
+          <div class="cardNoticias">
+            <div class="imgCardNoticias">
+              <img src="./assets/img/noticias1.png" alt="" />
+            </div>
+            <div class="cardNoticiasDescription">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                consequuntur.
+              </p>
+              <span>Date</span>
+            </div>
+          </div>
+          <div class="cardNoticias">
+            <div class="imgCardNoticias">
+              <img src="./assets/img/noticias2.png" alt="" />
+            </div>
+            <div class="cardNoticiasDescription">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                consequuntur.
+              </p>
+              <span>Date</span>
+            </div>
+          </div>
+          <div class="cardNoticias">
+            <div class="imgCardNoticias">
+              <img src="./assets/img/noticias3.png" alt="" />
+            </div>
+            <div class="cardNoticiasDescription">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                consequuntur.
+              </p>
+              <span>Date</span>
+            </div>
+          </div>
+        </div>
+        <div class="noticiasWrapper2">
+          <div class="cardNoticias">
+            <div class="imgCardNoticias">
+              <img src="./assets/img/noticias1.png" alt="" />
+            </div>
+            <div class="cardNoticiasDescription">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                consequuntur.
+              </p>
+              <span>Date</span>
+            </div>
+          </div>
+          <div class="cardNoticias">
+            <div class="imgCardNoticias">
+              <img src="./assets/img/noticias2.png" alt="" />
+            </div>
+            <div class="cardNoticiasDescription">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                consequuntur.
+              </p>
+              <span>Date</span>
+            </div>
+          </div>
+          <div class="cardNoticias">
+            <div class="imgCardNoticias">
+              <img src="./assets/img/noticias3.png" alt="" />
+            </div>
+            <div class="cardNoticiasDescription">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                consequuntur.
+              </p>
+              <span>Date</span>
+            </div>
+          </div>
+        </div>
+        <div class="buttonNoticias banner">
+          <button>Veja todas</button>
+        </div>
+      </section>
+      <section class="noticias videos">
+        <div class="engrenagem banner">
+          <div>
+            <img
+              src="./assets/img/youtubeNoticias.svg"
+              alt="icone engreganem"
+            />
+            <p class="videosH2">VÍDEOS</p>
+          </div>
+        </div>
+        <div class="videosWrapper">
+          <div class="videoGrande">
+            <iframe
+              width="800"
+              height="400"
+              src="https://www.youtube.com/embed/vZAO3fg8zH0?si=GBoPnaiHOET34huv"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="videosPequenos">
+            <div class="wrapperVdosPenos">
+              <div class="videoContentPqno">
+                <iframe
+                  width="200"
+                  height="160"
+                  src="https://www.youtube.com/embed/vZAO3fg8zH0?si=GBoPnaiHOET34huv"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="contentTextVideosPeqnos">
+                <p>MOMENTO CULTURAL - 2ºPROGRAMA</p>
+                <span>Data</span>
+              </div>
+            </div>
+            <div class="wrapperVdosPenos">
+              <div class="videoContentPqno">
+                <iframe
+                  width="200"
+                  height="160"
+                  src="https://www.youtube.com/embed/vZAO3fg8zH0?si=GBoPnaiHOET34huv"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="contentTextVideosPeqnos">
+                <p>MOMENTO CULTURAL - 2ºPROGRAMA</p>
+                <span>Data</span>
+              </div>
+            </div>
+            <div class="wrapperVdosPenos">
+              <div class="videoContentPqno">
+                <iframe
+                  width="200"
+                  height="160"
+                  src="https://www.youtube.com/embed/vZAO3fg8zH0?si=GBoPnaiHOET34huv"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="contentTextVideosPeqnos">
+                <p>MOMENTO CULTURAL - 2ºPROGRAMA</p>
+                <span>Data</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contratos">
+        <div class="wrapperContratos">
+          <div class="wrapperContentContratos">
+            <div class="topContratos">
+              <img src="./assets/img/contractRed.svg" alt="" />
+              <p>Contratos</p>
+            </div>
+            <div class="contratosRolagem">
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Aditivos</p>
+              </div>
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Apostilamento</p>
+              </div>
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Contratos PE</p>
+              </div>
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Contratos PP</p>
+              </div>
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="wrapperContentContratos">
+            <div class="topContratos">
+              <img src="./assets/img/balanca.svg" alt="" />
+              <p>Convênios</p>
+            </div>
+            <div class="contratosRolagem">
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Decretos</p>
+              </div>
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Leis</p>
+              </div>
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Leis Complementares</p>
+              </div>
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Lorem ipsum</p>
+              </div>
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+          <div class="wrapperContentContratos">
+            <div class="topContratos">
+              <img src="./assets/img/JudgeRed.svg" alt="" />
+              <p>Licitações</p>
+            </div>
+            <div class="contratosRolagem">
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Atas de Registro de Preço</p>
+              </div>
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Editais</p>
+              </div>
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Extratos de Editais</p>
+              </div>
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Resultados Homologados</p>
+              </div>
+              <div class="contratosRolageContent">
+                <img src="./assets/img/contractblue.svg" alt="" />
+                <p>Lorem ipsum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bannersStaticos">
+        <div class="wrapperBannersStaticos">
+          <div>
+            <img src="./assets/img/homemPensante.png" alt="" />
+            <p>CONCUROS E PROCESSOS SELETIVOS</p>
+          </div>
+          <div>
+            <img src="./assets/img/mulherLouca.png" alt="" />
+            <p>PLANO MUNICIPAL DE SANEAMENTO BÁSICO-PMSB</p>
+          </div>
+          <div>
+            <img src="./assets/img/bandeiraMen.png" alt="" />
+            <p>PARCERIAS OSCS</p>
+          </div>
+        </div>
+      </section>
+      <section class="conhecaItau">
+        <div class="conhecaItauWrapper">
+          <div class="conhecaitauTitle">
+            <span id="spanUnder">CONHEÇA ITAÚ DE MINAS</span>
+          </div>
+      <div class="wrapperItaudivs">
+        <div class="itauTextContent">
+            <p>
+              Itaú de Minas é um município brasileiro da Região Geográfica
+              Imediata de Passos situado no sudoeste do estado de Minas Gerais,
+              inicialmente denominado Córrego do Ferro.Sua população estimada
+              pelo IBGE para 1º de julho de 2018 era de 16 108 habitantes.
+              Possui uma área de 150,90 km² e situa-se a 20°45'22" de latitude
+              sul e 46°45'33" de longitude oeste, tem sua altitude máxima, de 1
+              095 m, na cabeceira do Córrego Tebas e a mínima, de 712 m, na foz
+              do rio Santana. O município é cortado por duas rodovias estaduais,
+              a MG-050 e a MG-344, que interligam a Região Metropolitana de Belo
+              Horizonte ao interior paulista. Também é cortada por um curto
+              trecho remanescente de uma ferrovia, o Ramal de Passos da antiga
+              Companhia Mogiana de Estradas de Ferro, que a liga às cidades
+              vizinhas de Pratápolis e São Sebastião do Paraíso. Está localizado
+              a 363 km da capital mineira. Integra o Circuito Turístico
+              Nascentes das Gerais, compreendendo a Serra da Canastra, região da
+              nascente do Rio São Francisco, o Velho Chico. Situa-se a 50 km do
+              Lago da Usina Hidrelétrica de Furnas, em uma região do estado
+              mineiro, com cachoeiras, cânions, montanhas, além da paisagem
+              natural da própria represa....
+              Itaú de Minas é um município brasileiro da Região Geográfica
+              Imediata de Passos situado no sudoeste do estado de Minas Gerais,
+              inicialmente denominado Córrego do Ferro.Sua população estimada
+              pelo IBGE para 1º de julho de 2018 era de 16 108 habitantes.
+              Possui uma área de 150,90 km² e situa-se a 20°45'22" de latitude
+              sul e 46°45'33" de longitude oeste, tem sua altitude máxima, de 1
+              095 m, na cabeceira do Córrego Tebas e a mínima, de 712 m, na foz
+              do rio Santana. O município é cortado por duas rodovias estaduais,
+              a MG-050 e a MG-344, que interligam a Região Metropolitana de Belo
+              Horizonte ao interior paulista. Também é cortada por um curto
+              trecho remanescente de uma ferrovia, o Ramal de Passos da antiga
+              Companhia Mogiana de Estradas de Ferro, que a liga às cidades
+              vizinhas de Pratápolis e São Sebastião do Paraíso. Está localizado
+              a 363 km da capital mineira. Integra o Circuito Turístico
+              Nascentes das Gerais, compreendendo a Serra da Canastra, região da
+              nascente do Rio São Francisco, o Velho Chico. Situa-se a 50 km do
+              Lago da Usina Hidrelétrica de Furnas, em uma região do estado
+              mineiro, com cachoeiras, cânions, montanhas, além da paisagem
+              natural da própria represa....
+            </p>
+          </div>
+          <div class="itauinformationsWrapper">
+            <div>
+                <img src="./assets/img/peolpes.svg" alt="">
+                <p class="pColorDif">Gentílico</p>
+                <span>itauense</span>
+            </div>
+            <div>
+                <img src="./assets/img/sol.svg" alt="">
+                <p class="pColorDif">Clima</p>
+                <span>Tropical de altitude</span>
+            </div>
+            <div>
+                <img src="./assets/img/peoplesDiversity.svg" alt="">
+                <p class="pColorDif">População</p>
+                <span>16 108 de hab.</span>
+            </div>
+            <div>
+                <img src="./assets/img/globe.svg" alt="">
+                <p class="pColorDif">Densidade</p>
+                <span>105 hab./km²</span>
+            </div>
+            <div>
+                <img src="./assets/img/tesoura.svg" alt="">
+                <p class="pColorDif">Fundação</p>
+                <span>31/12/1943</span>
+            </div>
+            <div>
+                <img src="./assets/img/map.svg" alt="">
+                <p class="pColorDif">Área</p>
+                <span>153,421 km²</span>
+            </div>
+          </div>
+      </div>
+        </div>
+      </section>
     </div>
 
     <script src="./scripts/index.js"></script>
-</body>
+  </body>
 </html>
