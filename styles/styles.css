@@ -66,7 +66,8 @@ nav ul li a {
 }
 
 .content-top {
-  width: 70%;
+  max-width: 1440px;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -521,66 +522,220 @@ nav ul li a {
   font-weight: bold;
 }
 
-.wrapperItaudivs{
-    display: flex;
-    padding: 20px;
+.wrapperItaudivs {
+  display: flex;
+  padding: 20px;
 }
 
-.itauTextContent{
-    margin-top: 20px;
-    background-color: #fff;    
-    width: 60%;
-    border-radius: 5px;
-    height: 400px;
-    overflow-y: scroll;
-    padding: 20px;
-    text-align: justify;
-    font-size: 20px;
+.itauTextContent {
+  margin-top: 20px;
+  background-color: #fff;
+  width: 60%;
+  border-radius: 5px;
+  height: 400px;
+  overflow-y: scroll;
+  padding: 20px;
+  text-align: justify;
+  font-size: 20px;
 }
 
 .itauTextContent p {
-    color: #72787e;    
+  color: #72787e;
 }
 
-.itauinformationsWrapper{
-    width: 40%;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
+.itauinformationsWrapper {
+  width: 40%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
-.itauinformationsWrapper div{
-    width: 200px;
-    background-color: #fff;
-    height: 120px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+.itauinformationsWrapper div {
+  width: 200px;
+  background-color: #fff;
+  height: 120px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.pColorDif{
-    color: #006399;
-    font-weight: bold;
+.pColorDif {
+  color: #006399;
+  font-weight: bold;
 }
-.itauinformationsWrapper div span{
-    font-weight: normal;
-    color:#72787e ;    
+.itauinformationsWrapper div span {
+  font-weight: normal;
+  color: #72787e;
 }
 .itauTextContent::-webkit-scrollbar {
-    width: 10px;
+  width: 10px;
+}
+
+.itauTextContent::-webkit-scrollbar-track {
+  background: transparent;
+  padding: 2px;
+}
+
+.itauTextContent::-webkit-scrollbar-thumb {
+  background-color: #365ca8;
+}
+
+@media screen and (max-width: 1440px) {
+  header {
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 10px;
   }
-  
-  .itauTextContent::-webkit-scrollbar-track {
-    background: transparent;
-    padding: 2px;
+
+  .content-top {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
-  
-  .itauTextContent::-webkit-scrollbar-thumb {
-    background-color: #365ca8;
+  .imgContent img {
+    border: none;
   }
-  
+  .dateBusca {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .dateBusca div {
+    width: 80%;
+  }
+  .subMenu nav {
+    width: 100%;
+  }
+
+  .subMenu nav ul {
+    padding: 10px;
+  }
+  .engrenagem div {
+    justify-content: center;
+  }
+  .slider {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .prev-btn,
+  .next-btn {
+    display: none;
+  }
+  .noticiasWrapper,
+  .noticiasWrapper2 {
+    flex-wrap: wrap;
+  }
+  .videosWrapper {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .videosPequenos {
+    width: 50%;
+  }
+  /* #videoGrande {
+    max-width: 500px;
+  } */
+  .contratos {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .wrapperContratos {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+  .wrapperContentContratos {
+    height: auto;
+  }
+  .topContratos {
+    margin-top: 10px;
+    justify-content: center;
+  }
+  .topContratos:first-child {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .wrapperBannersStaticos {
+    flex-wrap: wrap;
+  }
+  .conhecaitauTitle {
+    text-align: center;
+  }
+  .wrapperItaudivs {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .itauTextContent {
+    width: 100%;
+  }
+  .itauinformationsWrapper {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px 10px 10px 10px;
+  }
+  header nav ul {
+    flex-wrap: wrap;
+    padding-top: 10px;
+  }
+  .slide {
+    height: 150px;
+  }
+  .imgCardNoticias {
+    padding: 10px;
+  }
+  .imgCardNoticias img {
+    width: 100%;
+  }
+
+  .wrapperBannersStaticos {
+    width: auto;
+  }
+  .wrapperBannersStaticos div {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+  }
+  .itauTextContent {
+    min-width: 300px;
+  }
+  .itauTextContent::-webkit-scrollbar {
+    width: 5px;
+  }
+  .itauinformationsWrapper div {
+    min-width: 300px;
+    text-align: center;
+    justify-content: center;
+  }
+  .videosPequenos {
+    min-width: 300px;
+  }
+
+  .wrapperVdosPenos {
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .contentTextVideosPeqnos {
+    height: auto;
+    gap: 5px;
+  }
+}
