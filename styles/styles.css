@@ -138,7 +138,14 @@ nav ul li a {
   outline: none;
   padding-left: 15px;
 }
-
+.subMenu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgHamburguer{
+  display: none;
+}
 .subMenu nav {
   width: 750px;
   margin-top: 30px;
@@ -282,7 +289,7 @@ nav ul li a {
   margin-bottom: 20px;
   gap: 15px;
 }
-.noticiasWrapper2 {
+.noticiasWrapper2{
   display: none;
 }
 .cardNoticias {
@@ -585,6 +592,72 @@ nav ul li a {
   background-color: #365ca8;
 }
 
+footer{
+  width: 100%;  
+  background-color: #edf4ff;
+  padding-bottom: 40px;
+}
+.wrapperSectionFooter{
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.cardFooter{
+  background-color: #fff;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #CCC;
+  border-radius: 20px;
+}
+.wrapperImgItauFooter{
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+.wrapperTextIconFooter{
+  background-color: #365ca8;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding-top: 15px;
+}
+.wrapperTextIconFooter p{
+  font-size: 25px;
+}
+
+.wrapperTextIconFooter span{
+  font-size: 50px;
+  font-weight: 600;
+}
+.iconsFooter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 100px;
+}
+
+.iconsFooter img{
+ width: 50px;
+ height: 50px;
+ background-color: #FFF;
+ border: 1px solid #365ca8;
+ border-radius: 50%;
+ padding: 5px;
+}
+.enderecoFooter p{
+  color: #757780;
+  font-size: 32px;
+  text-align: center;
+  padding: 5px;
+}
+.imgFooter img{
+  max-width: 500px;
+}
 @media screen and (max-width: 1440px) {
   header {
     flex-wrap: wrap;
@@ -681,6 +754,9 @@ nav ul li a {
     margin-top: 15px;
     width: 100%;
   }
+  .imgFooter{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -692,6 +768,37 @@ nav ul li a {
   header nav ul {
     flex-wrap: wrap;
     padding-top: 10px;
+  }
+.subMenu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  .subMenu nav{
+    margin-top: -10px;
+  }
+
+  .subMenu nav ul{
+    flex-direction: column;
+    height: auto;
+  }
+  .menuPrincipal{
+    flex-direction: column;
+    min-width: 300px;
+    height: auto;
+    display: none;
+  }
+
+  .menuPrincipal.openMenu{
+    display: block;
+  }
+
+  .imgHamburguer{
+    margin-top: 10px;
+    height: 40px;
+    display: block;
+    cursor: pointer;
   }
   .slide {
     height: 150px;
@@ -733,7 +840,9 @@ nav ul li a {
     flex-wrap: wrap;
     flex-direction: column-reverse;
   }
-
+  .content-top{
+    flex-direction: column;
+  }
   .contentTextVideosPeqnos {
     height: auto;
     gap: 5px;

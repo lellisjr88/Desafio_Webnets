@@ -35,7 +35,7 @@
         <nav>
           <ul>
             <li>
-              <a href="">Ir para conteúdo</a>
+              <a href="#noticias">Ir para conteúdo</a>
             </li>
             <li>
               <a href="">Ir para o menu</a>
@@ -44,7 +44,7 @@
               <a href="">Ir para a busca</a>
             </li>
             <li>
-              <a href="">Ir para o rodapé</a>
+              <a href="#footer">Ir para o rodapé</a>
             </li>
           </ul>
         </nav>
@@ -81,22 +81,27 @@
             </div>
             <div class="menuBusca">
               <div class="subMenu">
-                <nav>
-                  <ul>
-                    <li>
-                      <a href="#"> A cidade </a>
-                    </li>
-                    <li>
-                      <a href=""> Conselhos Municipais </a>
-                    </li>
-                    <li>
-                      <a href=""> Secretarias </a>
-                    </li>
-                    <li>
-                      <a href="">Servidor Público</a>
-                    </li>
-                  </ul>
-                </nav>
+                <div class="imgHamburguer">
+                  <img src="./assets/img/menuHamburguer.svg" alt="">
+                </div>
+                <div class="menuPrincipal">
+                  <nav>
+                    <ul>
+                      <li>
+                        <a href="#cidade"> A cidade </a>
+                      </li>
+                      <li>
+                        <a href="#contratos"> Conselhos Municipais </a>
+                      </li>
+                      <li>
+                        <a href=""> Secretarias </a>
+                      </li>
+                      <li>
+                        <a href="">Servidor Público</a>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
               </div>
             </div>
           </div>
@@ -246,7 +251,7 @@
           </button>
         </div>
       </section>
-      <section class="noticias">
+      <section class="noticias" id="noticias">
         <div class="engrenagem banner">
           <div>
             <img src="./assets/img/microfoneSecao.svg" alt="icone engreganem" />
@@ -415,7 +420,7 @@
           </div>
         </div>
       </section>
-      <section class="contratos">
+      <section class="contratos" id="contratos">
         <div class="wrapperContratos">
           <div class="wrapperContentContratos">
             <div class="topContratos">
@@ -519,7 +524,7 @@
           </div>
         </div>
       </section>
-      <section class="conhecaItau">
+      <section class="conhecaItau" id="cidade">
         <div class="conhecaItauWrapper">
           <div class="conhecaitauTitle">
             <span id="spanUnder">CONHEÇA ITAÚ DE MINAS</span>
@@ -603,6 +608,33 @@
           </div>
         </div>
       </section>
+      <footer id="footer">
+          <section class="wrapperSectionFooter">
+            <div class="cardFooter">
+                <div class="wrapperImgItauFooter">
+                  <img src="./assets/img/iconItaudeMinas.png" alt="">
+                </div>
+                <div class="wrapperTextIconFooter">
+                  <p>PREFEITURA MUNICIPAL DE</p>
+                  <span>ITAÚ DE MINAS</span>
+                  <div class="iconsFooter">
+                    <img src="./assets/img/facebook-f.svg" alt="">
+                    <img src="./assets/img/rss-solid.svg" alt="">
+                    <img src="./assets/img/youtube.svg" alt="">
+                    <img src="./assets/img/instagram.svg" alt="">
+                  </div>
+                </div>
+                <div class="enderecoFooter">
+                  <p>Praça Monsenhor Ernesto</p>
+                  <p>Cavichioli, 340</p>
+                  <p>Telefone (35) 3536-4440</p>
+                </div>
+            </div>
+            <div class="imgFooter">
+              <img src="./assets/img/imgFooterItau.png" alt="">
+            </div>
+          </section>
+      </footer>
     </div>
 
     <script src="./scripts/index.js"></script>
