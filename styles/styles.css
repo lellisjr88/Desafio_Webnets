@@ -807,10 +807,10 @@ footer{
     padding: 10px;
   }
   .imgCardNoticias img {
-    width: 100%;
+   width: 100%;
   }
 
-  .wrapperBannersStaticos {
+.wrapperBannersStaticos {
     width: auto;
   }
   .wrapperBannersStaticos div {
